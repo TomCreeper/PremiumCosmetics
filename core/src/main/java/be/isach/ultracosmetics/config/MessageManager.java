@@ -23,8 +23,8 @@ public class MessageManager {
 	 * Set up the messages in the config.
 	 */
 	private void loadMessages() {
-		addMessage("Prefix", "&l&oCosmetics >&r");
-		addMessage("No-Permission", "%prefix% &c&lYou don't have the permission!");
+		addMessage("Prefix", "&a&lCOSMETICS &8&l»&r");
+		addMessage("No-Permission", "%prefix% &cYou don't have permission to execute this command!");
 		addMessage("Cosmetic-Disabled", "%prefix% &c&lThis cosmetic is disabled!");
 		addMessage("Invalid-Gadget", "%prefix% &c&lInvalid Gadget!");
 		addMessage("Invalid-Pet", "%prefix% &c&lInvalid Pet!");
@@ -189,7 +189,7 @@ public class MessageManager {
 		addMessage("Particle-Effects.BloodHelix.name", "&4&lBlood Helix");
 		addMessage("Particle-Effects.FrostLord.name", "&b&lFrost Lord");
 		addMessage("Particle-Effects.FlameRings.name", "&c&lFlame Rings");
-		// addMessage("Particle-Effects.AngelWings.name", "&f&lAngel Wings");
+		 addMessage("Particle-Effects.AngelWings.name", "&f&lAngel Wings");
 		addMessage("Particle-Effects.GreenSparks.name", "&a&lGreen Sparks");
 		addMessage("Particle-Effects.InLove.name", "&c&lIn Love");
 		addMessage("Particle-Effects.FrozenWalk.name", "&b&lFrozen Walk");
