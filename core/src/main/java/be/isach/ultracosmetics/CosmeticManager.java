@@ -48,7 +48,7 @@ public class CosmeticManager {
 		EmoteType.ANGRY.getConfigName();
 		if (Category.MORPHS.isEnabled()) {
 			MorphType.register();
-			// MorphType.valueOf("bat").getConfigName();
+			 MorphType.valueOf("bat").getConfigName();
 		}
 		
 		for (GadgetType gadgetType : GadgetType.values()) {
